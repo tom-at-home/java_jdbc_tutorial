@@ -1,3 +1,5 @@
+package lecture_03_setting_up_dev_environment;
+
 import java.sql.*;
 
 /**
@@ -15,7 +17,7 @@ public class JdbcTest {
 		
 		try {
 			// 1. Get a connection to database
-			myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo", "student" , "student");
+			myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/demo?useSSL=false", "student" , "student");
 			
 			System.out.println("Database connection successful!\n");
 			

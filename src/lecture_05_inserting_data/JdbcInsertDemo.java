@@ -1,3 +1,5 @@
+package lecture_05_inserting_data;
+
 import java.sql.*;
 
 /**

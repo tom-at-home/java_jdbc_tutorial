@@ -1,3 +1,5 @@
+package lecture_04_submitting_sql_queries;
+
 import java.sql.*;
 
 /**

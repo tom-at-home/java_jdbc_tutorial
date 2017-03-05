@@ -1,3 +1,5 @@
+package lecture_06_updating_data;
+
 import java.sql.*;
 
 /**
